@@ -26,6 +26,8 @@ function setup() {
   video.hide(); // hide the HTML video element
   background(0);
   output = createP("output");
+  strokeWeight(1);
+  stroke(255);
 }
 
 function draw() {
@@ -46,8 +48,8 @@ function draw() {
 
       if (brightnessValue > threshold) {
         let sz = map(brightnessValue, threshold - 1, 255, 2, 30);
-        noStroke();
-        fill(255);
+
+        fill(255, 20);
         hitcount++;
         rect(x, y, sz, sz); // scale up drawing
       }
