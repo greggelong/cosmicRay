@@ -1,5 +1,5 @@
 let video;
-let threshold = 50; // brightness threshold
+let threshold = 25; // brightness threshold
 let hitcount = 0;
 let output;
 let cnv;
