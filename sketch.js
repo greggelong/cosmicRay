@@ -49,7 +49,7 @@ function draw() {
       if (brightnessValue > threshold) {
         let sz = map(brightnessValue, threshold - 1, 255, 2, 30);
 
-        fill(255, 20);
+        fill(255, 2);
         hitcount++;
         rect(x, y, sz, sz); // scale up drawing
       }
