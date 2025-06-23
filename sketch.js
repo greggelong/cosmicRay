@@ -45,7 +45,7 @@ function draw() {
       if (brightnessValue > brightest) brightest = brightnessValue;
 
       if (brightnessValue > threshold) {
-        let sz = map(brightnessValue, 51, 255, 2, 30);
+        let sz = map(brightnessValue, threshold - 1, 255, 2, 30);
         noStroke();
         fill(255);
         hitcount++;
