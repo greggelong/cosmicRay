@@ -1,5 +1,5 @@
 let video;
-let threshold = 40; // brightness threshold
+let threshold = 50; // brightness threshold
 let hitcount = 0;
 let output;
 let cnv;
@@ -47,7 +47,7 @@ function draw() {
       if (brightnessValue > brightest) brightest = brightnessValue;
 
       if (brightnessValue > threshold) {
-        let sz = map(brightnessValue, threshold - 1, 255, 30, 60);
+        let sz = map(brightnessValue, threshold - 1, 255, 5, 60);
 
         fill(255, 2);
         hitcount++;
