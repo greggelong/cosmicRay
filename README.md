@@ -61,6 +61,25 @@ However, hits may be random — they follow a Poisson distribution. Some hits ma
 
 ---
 
+## ☢️ Am-241 Ion Chamber Test
+
+This test explores the responsiveness of a hacked webcam CMOS sensor to ionizing radiation.
+
+### 🔬 Background
+
+**Americium-241 (Am-241)** is a synthetic radioactive isotope commonly used in **smoke detectors**. It emits **alpha particles** and low-energy **gamma rays**, and is housed in a sealed **ionization chamber** that generates a small, stable current by ionizing air molecules. When smoke interrupts this current, the alarm is triggered.
+
+### 🧪 Experiment
+
+- A **hacked webcam** with its **lens removed** and **CMOS sensor exposed** is placed inside a **lightproof box**.
+- In the **first test**, the box is sealed **without any radioactive source**. Fewer than **1 hit per minute** is observed — likely from **cosmic rays**.
+- In the **second test**, a **>0.08 μCi Am-241 ion chamber** (typically used in smoke alarms) is placed next to the CMOS chip.
+- This results in **hundreds of hits per minute**, showing clear evidence that the sensor is reacting to **ionizing radiation** from the Am-241.
+
+### 🧠 Interpretation
+
+The experiment demonstrates that the webcam CMOS chip, especially when exposed and monitored via Processing or p5.js, can function as a **radiation detector**. The dramatic difference in hit rate between the control and Am-241 conditions supports this conclusion.
+
 ## 🧪 Disclaimer
 
 This project is **experimental** and for **educational and artistic purposes** only. It does not provide certified measurements of radiation and is **not a safety tool**. If using actual radioactive sources, **follow all local laws and safety procedures**.
