@@ -73,7 +73,7 @@ function draw() {
         let sx = x * cellW;
         let sy = y * cellH + outputBarHeight;
 
-        fill(255, 5); // semi-transparent hit dot
+        fill(255, 100); // semi-transparent hit dot
         noStroke();
         rect(sx, sy, cellW, cellH);
 
