@@ -71,10 +71,7 @@ function draw() {
         let sx = x * cellW;
         let sy = y * cellH + outputBarHeight;
 
-        fill(255, 5);
-        noStroke();
-        rect(sx, sy, cellW, cellH);
-
+        fill(255, 2);
         hitcount++;
       }
     }
