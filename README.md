@@ -85,3 +85,8 @@ The experiment demonstrates that the webcam CMOS chip, especially when exposed a
 This project is **experimental** and for **educational and artistic purposes** only. It does not provide certified measurements of radiation and is **not a safety tool**. If using actual radioactive sources, **follow all local laws and safety procedures**.
 
 ---
+
+
+### links 
+
+https://pubsapp.acs.org/cen/80th/americium.html?
