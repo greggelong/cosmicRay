@@ -177,7 +177,7 @@ function drawHUD() {
   noStroke();
   rect(0, 0, width, outputBarHeight);
   fill(255);
-  text(`COSMIC RECORDER | Hits: ${hitcount} |`, 10, 20);
+  text(`COSMIC RECORDER | Hits: ${hitcount} `, 10, 20);
 }
 
 function mousePressed() {
