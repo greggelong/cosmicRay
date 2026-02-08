@@ -1,6 +1,6 @@
 let video;
 let cellsz;
-let threshold = 55;
+let threshold = 35;
 let hitcount = 0;
 let brightest = 0;
 let gotVideoSize = false;
